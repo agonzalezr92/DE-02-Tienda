@@ -2,7 +2,7 @@ class Producto:
     def __init__(self, nombre, precio, stock=0):
         self._nombre = nombre
         self._precio = precio
-        self._stock = max(stock, 0)  # Asegurarse de que el stock no sea negativo
+        self._stock = max(stock, 0)  # Asegurarse de que el stock no sea negativo 
 
     @property
     def nombre(self):
