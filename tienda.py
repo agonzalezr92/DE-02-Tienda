@@ -32,7 +32,7 @@ class Restaurante(Tienda):
     def realizar_venta(self, nombre, cantidad):
         for producto in self._productos:
             if producto.nombre == nombre:
-                return producto.precio  # En Restaurante, siempre se vende el producto si se encuentra
+                return producto.precio  # En Restaurante, siempre se vende el producto si se encuentra 
         return None
 
 
